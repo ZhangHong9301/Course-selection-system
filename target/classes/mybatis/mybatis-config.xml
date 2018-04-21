@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+              "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis主配置文件-->
+<configuration>
+
+    <!--为java po类起别名-->
+    <typeAliases>
+        <!--别名方式2，自动扫描，将java类的类名作为类的类别名-->
+        <package name="com.cs.SchoolSystem.po"/>
+    </typeAliases>
+    <!--<mappers>-->
+    <!--由于使用了spring与mybati整合包进行，mapper扫描，这里不需要配置-->
+    <!--</mappers>-->
+
+</configuration>
